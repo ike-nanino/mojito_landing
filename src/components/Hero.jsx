@@ -115,11 +115,8 @@ const Hero = () => {
 		 muted
 		 playsInline
 		 preload="auto"
-
-		>
-<source src="/videos/output.mp4" type="video/mp4" />
-  <source src="/videos/output.webm" type="video/webm" />
-		</video>
+		 src="/videos/output.mp4"
+		/>
 	 </div>
 	</>
  );
